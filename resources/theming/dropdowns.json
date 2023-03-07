@@ -1,0 +1,87 @@
+{
+  "drop_down_menu": {
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "100",
+      "shadow_width": "0",
+      "expand_direction": "down",
+      "open_button_width": "0"
+    },
+    "colours": {
+      "dark_bg": "#655934"
+    }
+  },
+  "drop_down_menu.#selected_option": {
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "6",
+      "shadow_width": "0"
+    },
+    "colours": {
+      "normal_bg": "#655934",
+      "normal_text": "#efe5ce"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15"
+    }
+  },
+  "drop_down_menu.#drop_down_options_list.button": {
+    "misc": {
+      "border_width": "1",
+      "open_button_width": "10"
+    },
+    "colours": {
+      "normal_bg": "#655934",
+      "selected_bg": "#1e1809",
+      "normal_text": "#efe5ce"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15"
+    }
+  },
+  "drop_up_menu": {
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "100",
+      "shadow_width": "0",
+      "expand_direction": "up",
+      "open_button_width": "0"
+    },
+    "colours": {
+      "dark_bg": "#655934"
+    }
+  },
+  "drop_up_menu.#selected_option": {
+    "misc": {
+      "border_width": "1",
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "6",
+      "shadow_width": "0"
+    },
+    "colours": {
+      "normal_bg": "#655934",
+      "normal_text": "#efe5ce"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15"
+    }
+  },
+  "drop_up_menu.#drop_down_options_list.button": {
+    "misc": {
+      "border_width": "1",
+      "open_button_width": "10"
+    },
+    "colours": {
+      "normal_bg": "#655934",
+      "selected_bg": "#1e1809",
+      "normal_text": "#efe5ce"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "text_entry_line": {
+    "colours": {
+      "dark_bg": "#655934",
+      "selected_bg": "#6E6759",
+      "normal_text": "#efe5ce",
+      "selected_text": "#DCDCDC",
+      "text_cursor": "#000000"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "6",
+      "shadow_width": "0"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15"
+    }
+  },
+  "#json_box": {
+    "colours": {
+      "dark_bg": "#655934",
+      "selected_bg": "#6E6759",
+      "normal_text": "#efe5ce",
+      "selected_text": "#DCDCDC",
+      "text_cursor": "#000000",
+      "normal_border": "#584f2e"
+    },
+    "misc": {
+      "shape": "rectangle",
+      "shadow_width": "0",
+      "text_horiz_alignment": "left",
+      "border_width": "2"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15"
+    }
+  }
+}

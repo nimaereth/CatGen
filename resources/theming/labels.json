@@ -1,0 +1,19 @@
+{
+  "label": {
+    "colours": {
+      "normal_text": "#574d2e",
+      "text_shadow": "#505050"
+    },
+    "font": {
+      "name": "notosans",
+      "size": "15",
+      "bold": "0",
+      "italic": "0"
+    },
+    "misc": {
+      "text_shadow": "0",
+      "text_shadow_size": "0",
+      "text_shadow_offset": "0,0"
+    }
+  }
+}
