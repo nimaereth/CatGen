@@ -16,7 +16,7 @@ age_ranges = {"kitten": (0, 5),
 statuses = {"kit": ["kitten"],
             "adolescent": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
             "adult": ["warrior", "mediator", "medicine cat", "deputy", "leader"],
-            "elder": ["elder", "medicine cat", "mediator"]}
+            "elder": ["elder", "medicine cat", "mediator", "leader"]}
 
 # Backstory list
 backstories = ["clanborn", "halfclan1", "halfclan2", "outsider_roots1", "outsider_roots2", "loner1", "loner2",

@@ -210,7 +210,7 @@ class Cat:
         Update cat age based on moons
 
         """
-        if self.moons > 300:
+        if self.moons > 150:
             self.age = "elder"
         else:
             for age, moon_range in catdicts.age_ranges.items():
