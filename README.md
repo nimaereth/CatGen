@@ -14,3 +14,13 @@ Requirements:
 - ujson
 
 Disclaimer: this tool uses art assets and reuses code from [ClanGen](https://github.com/Thlumyn/clangen).
+
+
+Steps for adding exported cats to your Clan save:
+1. Once you've finished customising your cat, navigate to the export tab click on "export json".
+2. Your cat's json will be saved to the savedcats folder with the name [prefix][suffix][ID]json.json
+3. Open up this json file (with notepad, for example) and copy it.
+4. In your CLANGEN folder, navigate to your current clan's folder and open clan_cats.json
+5. Paste in the text you copied at the end of the file (+ Make sure formatting is OK).
+6. In your clan's JSON file, add in your customised cat's ID to the list of cats.
+7. Run your game.
