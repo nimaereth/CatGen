@@ -139,7 +139,7 @@ class Cat:
                       "spirit_elder": self.poses["elder"],
                       "spirit_dead": None,
                       "eye_colour": spritedicts.eye_colours[self.eye1_idx],
-                      "eye_colour2": spritedicts.eye_colours[self.eye2_idx],
+                      "eye_colour2": spritedicts.eye_colours[self.eye2_idx] if self.heterochromia else None,
                       "reverse": self.reverse,
                       "white_patches": spritedicts.white_patches[self.white_patch_idx],
                       "white_patches_tint": list(spritedicts.white_patch_tints.keys())[self.white_patch_tint_idx],
