@@ -64,6 +64,7 @@ jobs:
   build_win32:
     runs-on: windows-2019
     steps:
+      - uses: actions/checkout@v3
       - name: Setup Python 3.8 x86
         uses: actions/setup-python@v4
         with:
@@ -92,6 +93,7 @@ jobs:
   build_win64:
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Setup Python 3.8 x86
         uses: actions/setup-python@v4
         with:
