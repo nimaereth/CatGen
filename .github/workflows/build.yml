@@ -81,7 +81,7 @@ jobs:
         run: python -m pip install --upgrade PyInstaller
       - name: Run PyInstaller
         #run: poetry run python3 -m PyInstaller -i resources/images/icon.png --name clangen --windowed --noupx --onedir --clean --add-data "sprites;sprites" --add-data "resources;resources" --add-data "README.md;." main.py
-        run: poetry run PyInstaller Catgen.spec
+        run: python -m PyInstaller Catgen.spec
       - name: Create archive (.zip)
         run: tar.exe -a -c -f Catgen_Win32.zip -C dist Catgen
       - uses: actions/upload-artifact@v3
@@ -109,7 +109,7 @@ jobs:
         run: python -m pip install --upgrade PyInstaller
       - name: Run PyInstaller
         #run: poetry run python3 -m PyInstaller -i resources/images/icon.png --name clangen --windowed --noupx --onedir --clean --add-data "sprites;sprites" --add-data "resources;resources" --add-data "README.md;." main.py
-        run: poetry run PyInstaller Catgen.spec
+        run: python -m PyInstaller Catgen.spec
       - name: Create archive (.zip)
         run: tar.exe -a -c -f Catgen_Win32.zip -C dist Catgen
       - uses: actions/upload-artifact@v3
@@ -143,7 +143,7 @@ jobs:
       #    tar.exe -x -v -f upx-4.0.0-win64.zip
       - name: Run PyInstaller
         #run: poetry run python3 -m PyInstaller -i resources/images/icon.png --name clangen --windowed --noupx --onedir --clean --add-data "sprites;sprites" --add-data "resources;resources" --add-data "README.md;." main.py
-        run: poetry run PyInstaller Catgen.spec
+        run: python -m PyInstaller Catgen.spec
       - name: Create archive (.zip)
         run: tar.exe -a -c -f Catgen_Win64_Windows10+.zip -C dist Catgen
       - uses: actions/upload-artifact@v3
