@@ -16,6 +16,9 @@ Requirements:
 Disclaimer: this tool uses art assets and reuses code from [ClanGen](https://github.com/Thlumyn/clangen).
 
 
+There is a [version that doesnt require thonny](https://nightly.link/nimaereth/catgen/workflows/build/master), but it is not garunteed to work
+
+
 
 # Adding the JSON file to your Clan
 Steps for adding exported cats to your Clan save:
